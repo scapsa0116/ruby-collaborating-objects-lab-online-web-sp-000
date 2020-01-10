@@ -39,7 +39,6 @@ def self.find(name)
 
   def self.create(name)
     artist = self.new(name)
-    # @@all << artist
     artist
   end
 
